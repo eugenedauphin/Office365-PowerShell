@@ -1,18 +1,18 @@
 # +----------------------------------------------------------------------------+
-# | File    : StoreCredentials.ps1                                             |
-# | Author  : Eugène Dauphin                                                   |
+# | Author : EugÃ¨ne Dauphin                                                    |
+# | File : StoreCredentials.ps1                                                |
 # | Version : 1.1                                                              |
-# | Purpose : Store credentials for a tenant                                   |
+# | Purpose : Store credentials for a tenant                                   |
 # |                                                                            |
 # | Synopsis:                                                                  |
-# | Usage : .\StoreCredentials.ps1 .\FolderNameOfConnection                    |
+# | Usage : .\StoreCredentials.ps1 .\FolderNameOfTenant                        |
 # +----------------------------------------------------------------------------+
 # | Maintenance History                                                        |
 # | -------------------                                                        |
 # | Name             Date       Version  Description                           |
+# | EugÃ¨ne Dauphin   18-09-2014 1.0      Initial Version                       |
+# | EugÃ¨ne Dauphin   26-08-2015 1.1      Force switch and dir create added     |
 # | ---------------------------------------------------------------------------+
-# | Eugène Dauphin   18-09-2014 1.0      Initial Version                       |
-# | Eugène Dauphin   26-08-2015 1.1      Force switch and dir create added     |
 # |                                                                            |
 # | Disclaimer: All scripts and other PowerShell references on this blog are   |
 # | offered "as is" with no warranty.  While these scripts are tested and      |
@@ -34,7 +34,7 @@
 .EXAMPLE
     .\StoreCredentials.ps1 .\FolderNameOfTenant -Force
 .NOTES
-    Author: Eugène Dauphin
+    Author: EugÃ¨ne Dauphin
 #>
 
 [CmdletBinding()]

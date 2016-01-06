@@ -1,18 +1,18 @@
 # +----------------------------------------------------------------------------+
+# | Author  : EugÃ¨ne Dauphin                                                   |
 # | File    : Connect.ps1                                                      |
-# | Author  : Eugène Dauphin                                                   |
 # | Version : 1.1                                                              |
 # | Purpose : Connect to an Office 365 Tenant                                  |
 # |                                                                            |
 # | Synopsis:                                                                  |
-# | Usage : .\Connect.ps1 .\FolderNameOfConnection                             |
+# | Usage : .\Connect.ps1 .\FolderNameOfTenant                             |
 # +----------------------------------------------------------------------------+
 # | Maintenance History                                                        |
 # | -------------------                                                        |
 # | Name             Date       Version  Description                           |
+# | EugÃ¨ne Dauphin   18-09-2014 1.0      Initial Version                       |
+# | EugÃ¨ne Dauphin   07-10-2015 1.1      Added PnP PowerShell Cmdlets          |
 # | ---------------------------------------------------------------------------+
-# | Eugène Dauphin   18-09-2014 1.0      Initial Version                       |
-# | Eugène Dauphin   07-10-2015 1.1      Added PnP PowerShell Cmdlets          |
 # |                                                                            |
 # | Disclaimer: All scripts and other PowerShell references on this blog are   |
 # | offered "as is" with no warranty.  While these scripts are tested and      |
@@ -28,9 +28,9 @@
 .PARAMETER Path
     The path to the Folder with the stored credentials.
 .EXAMPLE
-    .\Connect.ps1 .\FolderNameOfTenant
+    .\Connect.ps1 .\FolderNameOfTenant    
 .NOTES
-    Author: Eugène Dauphin    
+    Author: EugÃ¨ne Dauphin
 #>
 
 [CmdletBinding()]
