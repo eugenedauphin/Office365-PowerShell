@@ -5,7 +5,7 @@
 # | Purpose : Connect to an Office 365 Tenant                                  |
 # |                                                                            |
 # | Synopsis:                                                                  |
-# | Usage : .\Connect.ps1 .\FolderNameOfTenant                             |
+# | Usage : .\Connect.ps1 .\FolderNameOfTenant                                 |
 # +----------------------------------------------------------------------------+
 # | Maintenance History                                                        |
 # | -------------------                                                        |
